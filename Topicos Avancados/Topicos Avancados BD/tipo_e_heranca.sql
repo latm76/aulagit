@@ -1,0 +1,29 @@
+CREATE TYPE T_PESSOA AS OBJECT (
+CODIGO_PESSOA NUMBER(5),
+NOME_PESSOA VARCHAR2(50),
+ENDERECO VARCHAR2(50)) NOT FINAL;
+
+-- nao da erro, logo not final nao adianta de nada
+CREATE TABLE PESSOA of T_pessoa;
+
+select * from pessoa;
+insert into pessoa values (1,'leonardo','rio grande do sul');
+
+CREATE TYPE T_FISICA UNDER T_PESSOA (
+CPF CHAR(11),
+SEXO CHAR(1));
+
+CREATE TYPE T_JURIDICA UNDER T_PESSOA (
+CNPJ CHAR(14),
+INSC_ESTADUAL VARCHAR(30));
+
+CREATE TABLE PESSOA_FISICA of T_FISICA;
+CREATE TABLE PESSOA_JURIDICA of T_JURIDICA;
+CREATE TABLE PESSOA_FISICA of T_FISICA;
+CREATE TABLE PESSOA_JURIDICA of T_JURIDICA;
+
+select * from pessoa_fisica;
+
+select * from pessoa_juridica;
+
+

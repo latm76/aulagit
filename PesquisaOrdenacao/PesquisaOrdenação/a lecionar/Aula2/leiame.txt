@@ -1,0 +1,9 @@
+Construir programa por partes
+
+1. Programa que dado quantidade de pessoas que moram em uma republica e valor de conta, calcule quanto cada pessoa deverá pagar.
+
+2. Acrescentar a possibilidade de se cobrar multa no valor da conta por pagamento feito em atraso
+
+3. Permitir que sejam contabilizadas várias contas a serem pagas por cada morador da republica
+
+4. Ao final do programa listar todos os valores da conta, multa, valor a ser pago referente a cada conta, valor total das contas e valor a ser pago por cada morador da republica.

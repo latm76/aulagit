@@ -1,0 +1,7 @@
+republica3 --> alterar de modo a gerar o arquivo republica4 (fazer passo a passo com alunos, explicar e desenhar o conceito de vetor e seu preenchimento - vetor valorconta e vetor multa)
+
+Pedir para construirem um arquivo como o programa BASE.exe - sem opcao de ordenacao.
+
+Explicar funcionamento basico do algoritmo de ordenação por selecao e pedir para construirem o primeiro passo deste algoritmo (ou seja, ordenar somente o primeiro elemento)
+
+em seguida utilizar algoritmo de ordenação por selecao e pedir para construirem o segundo passo deste algoritmo (ou seja, ordenar somente o primeiro e segundos elementos)

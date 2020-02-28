@@ -1,0 +1,77 @@
+O algoritmo erra para 1 2 4 10 3 justamente por perder o pivo.
+pivo = 4
+inicio para em 4
+fim para em 3
+efetua-se a troca
+1 2 3 10 4
+inicio vai para 10
+fim vai para 10
+sao iguais (inicio == fim)
+inicio vai para 4
+fim vai para 3
+chama-se quicksort de 1 a 3 
+chama-se quicksort de 4 a 4
+10 "virou" o pivo. 
+
+Fiz quicksort e fiz o quicksortbet - melhorado.
+quicksortbet-altura - ve altura da arvore
+quicksort-padrao - algoritmo com 2 vetores
+
+1 8 5 10 11
+pivo - 5
+
+passo 1 - erro - ava
+inicio=2 (para pois 8 é menor que 5)
+fim = 3 (para pois 5 não é menor que 5)
+trocam posicao
+1 5 8 10 11
+inicio = 3
+fim = 2
+chama novo quicksort de posicao 1 a 2 e de posicao 3 a 5
+1 a 2 pega qualquer elemento e OK
+3 a 5, pega o elemento 4 e esta correto.
+
+passo 1 - correto
+inicio=2 (para pois 8 é menor que 5)
+fim = 3 (para pois 5 não é menor que 5)
+trocam posicao
+1 5 8 10 11
+inicio = 3
+fim = 2
+
+entra no if onde inicio = fim + 1
+verifica-se que lista[inicio] não é igual a pivo (valor 5),
+subtrai-se 1 de fim, fim = 1
+como fim não é maior que prim, entao a chamada ao quicksort nao é feita para este intervalo, chama-se somente de 3 a 5.
+
+chama novo quicksort de posicao 1 a 2 e de posicao 3 a 5
+1 a 2 pega qualquer elemento e OK
+3 a 5, pega o elemento 4 e esta correto.
+
+
+NOTA: o erro do programa do AVA é que dependendo da situação ele está passando o pivo novamente para o quicksort, sem necessidade alguma.
+
+inicialmente tinhamos:
+    if (inicio==fim+1)
+    {
+	if (lista[inicio]==pivo)
+		inicio++;
+	else
+		fim--;
+    }
+Dava erro para:
+4 5 6 7 8 3
+
+pois o 3 trocava com o 6 e pelo fato de inicio==fim+1 e lista[inicio] nao ser igual a pivo (6 é pivo mas inicio posicionao em 7 e fim em 3), tirava um de fim, indo para o elemento 5. 
+
+alterado para
+    if (inicio==fim+1)
+    {
+	if (lista[inicio]==pivo)
+		inicio++;
+	else
+		if (lista[fim]==pivo)
+			fim--;
+    } 
+
+DE toda forma com a sequencia 1 2 4 10 3 temos que nao faz o que deveria. Pivo é 4 porem ao final da execucao do primeiro passo teremos a seguinte ordem

@@ -1,0 +1,28 @@
+15 aulas - a partir de 4/3/2020
+13 aulas + 2 aulas (2 aulas - avaliacao)
+13 aulas
+1 - vetor compras, código base, inteligência do seleção e construção de código para ordenar os 2 primeiros elementos
+2 - seleção
+3 - inserção
+4 - Bolha
+5 - pesquisa bin e sequencial
+6 - recursao
+7 - quicksort
+8 - avaliação
+9 - lista encadeada (criacao, pesquisa sequencial, remocao (free) e busca por elemento)
+10 - lista duplamente encerrada
+11 - arvore binaria (criacao, busca, pesquisa e remocao) 
+	- ver ava (Conceito de Árvore Binária, Árvore de Busca Binária e suas nomenclaturas)
+12 - arvore binária conceitos 
+	- arvore hierarquica
+	- raiz, subarvore, aresta
+	- nó pai, nó filho e nó raiz
+	- nivel, grau de um nó, grau da árvore, altura de nó, altura da arvore
+	- floresta
+	- forma de representação
+	--> arvore estritamente binaria, binária cheia, binária completa
+	--> atravessamento da árvore binária	
+	--> arvore binária balanceada, binária degenerada, AVL (balanceamento), rubro negra
+13 - complementar aula 12. Revisão.
+Aula 14 - Prova (3/6)
+Aula 15 - Sub (10/6)
