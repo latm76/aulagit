@@ -1,0 +1,19 @@
+Topicos Avancados em BD - 13 aulas (da 2 a 14)
+
+2. Introducao SQL (laboratorio) - create table, insert, delete, update, SELECT
+3. Exercícios em laboratorio
+4. Aula e exercicios com juncao de tabelas - laboratorio
+5. Banco de dados distribuido (AVA 1 a 4) - teorico
+6. Banco de dados objeto relacional (AVA 5) - completar aula 4 caso nao de tempo - teorico
+7. Tipos e Heranca (laboratorio com exercicios) e Tabelas aninhadas - AVA 6
+8. Arrays (laboratorio) e RAID 4, 5 e 6 - AVA 7
+9. Avalilação 1 (laboratorio com exercicios práticos e teóricos)
+10. XML - geracao padrao (laboratorio)
+11. XML Schema - validar XML (laboratorio)
+12. Algebra relacional - teorico - uniao, interseccao, diferenca
+13. Algebra relacional - teorico - selecao,projecao e produto cartesiano
+14. Algebra relacional - teorico - juncao, juncao natural e divisao
+
+Se der tempo, dar mongoDB
+
+Algebra relacional - 3 aulas - incluir divisao, juncao, juncao natural - AVA 13 a 17
